@@ -1,0 +1,118 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+  
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #dfdad585;
+            margin: 5px;
+    }
+            
+        header {
+            padding: 5px;
+            margin: 10px;
+              
+    }
+        h1 {
+            color: #A74431;
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 55px;
+     }
+        h1 > a:hover{
+            font-weight: bold;
+            text-decoration: none;
+     }
+        h1 > a:visited {
+            color: #A74431;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 55px;
+    }
+        #titulo {
+            color: #A74431;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 55px;
+        }
+        #linkdosha {
+            display: inline-block;
+            color: whitesmoke;
+            background-color: #A74431;
+            text-decoration: none;
+            padding: 5px;
+        }                        
+            #linkdosha:hover {
+            color:whitesmoke;
+            text-decoration: underline;
+        }
+      
+        nav {
+            background-color: #403434;
+            text-align: center;
+            padding: 5px;
+            
+    }
+        nav > a {
+            color: #F2F1F0;
+            font-weight: normal;
+            text-decoration: none;
+            margin-right: 30px;
+            text-align: center;
+    }
+        nav > a:hover {
+            color:#F2F1F0;
+            font-weight: bold;
+            
+    }    
+        main {
+            backgrond-color: #D9C8BF;
+            padding: 15px;
+            margin: 0px;
+    }        
+        section {
+            background-color: #a7453125;
+            padding: 15px;
+            margin: 0px;
+    }
+        img {
+            width: 100%;
+            height: 350px;       
+    }
+        #doshas {
+            width:auto;
+            display: block;
+            margin: auto;
+        }     
+        h2 {
+            color: #403434;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+    
+    }
+        article {
+            background-color: #dfdad5;
+            color: #403434;
+            padding: 20px;
+            text-align: justify;
+    }
+        dl {
+            padding-left: 15px;
+            text-align: justify;
+    }
+        article > aside {
+            background-color: rgb(104, 101, 101);
+    }   
+        footer {
+            background-color: #403434;
+            color: #F2F2F2;
+            text-align: center;
+            padding: 10px;
+            margin: auto;
+   }
+   </style>
